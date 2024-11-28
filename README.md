@@ -19,18 +19,17 @@ The website is used by his subscribers/ followers and people who likes to watch 
 - Info to know more about Max Fosh
 ### Features I am removing
 
-- Ability to send emails
-Reason: Most of Max Fosh viewers are teenagers and adults. That demographic of people uses social media more often hence having an email feature seems redundant as they would just send enquiries and problems that they encountered through the various social media platform.
+- Ability to send emails, reason being: Most of Max Fosh viewers are teenagers and adults. That demographic of people uses social media more often hence having an email feature seems redundant as they would just send enquiries and problems that they encountered through the various social media platform.
 ## Technology used
 
 - w3schools.com for the various css codes for flexbox etc.
 - stackflow.com for more css codes that I couldnt find on w3schools.com
-## NOTE
+## Note
 
 **All links lead to actual websites in the original website meaning the ticket is legit if you actually click buy on the website it send you to after you click "buy" on my website.**
 ## Testing
 
-Every links seem to working fine. Ticketing links may be wrong as I might copy the wrong url. The facebook page is not working as the original one also didnt work.
+Every links seem to working fine. Ticketing links may be wrong as I might copy the wrong url. The facebook page is not working as the original one also didnt work. Everything else also seems to be working fine
 ## Credits
 
 ### Original website and information
