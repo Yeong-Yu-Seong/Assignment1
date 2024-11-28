@@ -1,0 +1,169 @@
+h1{
+    background-color: rgba(208, 44, 44, 0.681);
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+    margin: auto;
+    width: 100%;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+a.hyperlink{
+    background-color: rgb(208, 44, 44, 0.681);
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+p{
+    font-size: 3vw;
+    display: inline-block;
+    margin: 10px;
+    color: white;
+    display: block;
+}
+a.ticket{
+    background-color: rgb(208, 44, 44);
+    color: white;
+    border-color: white;
+    font-size: 3vw;
+    text-decoration-line: none;
+    border: 2px solid white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+h2{
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+}
+h3{
+    font-size: 3vw;
+    border-top: 4px solid rgb(208, 44, 44, 0.681);
+    color: white;
+    text-align: center;
+}
+a{
+    font-size: 3vw;
+    color: white;
+    display: block;
+    text-align: center;
+}
+img.image{
+    height: 3vw;
+    width: 3vw;
+    margin-left: 1%;
+    border-radius: 20%;
+}
+html{
+    font-family: "Bangers", system-ui, "Lilita One", sans-serif, "DynaPuff", serif;
+    font-weight: bold;
+    font-style: normal;
+}
+p{
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar{
+    width: 100%;
+    overflow: auto;
+}
+.navbar a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size:3vw;
+    width: 25%; /* Four links of equal widths */
+    text-align: center;
+}
+@media screen and (max-width: 500px) {
+    .navbar a, .info {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+}
+.info {
+    width: 100%;
+    display:inline-flex;
+    border-bottom: 4px solid rgb(208, 44, 44, 0.681);
+    background-color: rgb(208, 44, 44, 0.681);
+    overflow: auto;
+    border: 2px solid white;
+    margin: 10px auto;
+}
+.info p {
+    margin: auto;
+    margin-left: 5px;
+}
+img{
+    height: 50%;
+    width: 50%;
+    margin: 5px;
+}
+iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+p.date{
+    text-align: center;
+    display: block;
+}
+h2.important{
+    color: whitesmoke;
+    font-style: italic;
+}
+.navbar a:hover{
+    background-color: rgba(212, 54, 54, 0.785);
+}
+body {
+    background-image: url('loophole.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+.ticket-area {
+    background-color: rgba(208, 44, 44, 0.681);
+    border: 2px solid white;
+    margin: 10px auto;
+}
+.ticket-area p {
+    border: none;
+    background-blend-mode: overlay;
+}
+.sm{
+    border: 2px solid white;
+    background-color: rgba(208, 44, 44, 0.681);
+    margin: 15px auto;
+    width: 50%;
+    text-align: center;
+}
+.qna {
+    background-color: rgba(208, 44, 44, 0.681);
+    border: 2px solid white;
+    margin: 15px auto;
+}
+div.more-info {
+    background-color: rgb(208, 44, 44, 0.681);
+    border: 2px solid white;
+    margin: 10px auto;
+}
+div.vid{
+    background-color: rgb(208, 44, 44, 0.681);
+    border: 2px solid white;
+    margin: 5px auto;
+}
+h2.about {
+    background-color: rgba(208, 44, 44, 0.681);
+    margin: 15px auto;
+    border: 2px solid white;
+}
+a:hover {
+    color: black;
+}
+.ticket-area a:hover{
+    background-color: rgba(241, 94, 94, 0.785);
+}
