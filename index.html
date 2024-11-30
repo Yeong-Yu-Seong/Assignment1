@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-    <html>
+    <html lang = "en">
         <head>
-            <link rel="stylesheet" href="css/normalize.css">
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="normalize.css" type = "text/css">
             <link rel="stylesheet" href="style.css" type="text/css">
             <title>Home Page</title>
         </head>
         <body>
+            <!-- Navigation Area and Title of Page -->
             <h1>Welcome to Max Fosh Loophole website!</h1>
             <nav class = "navbar">
-                <a class = "hyperlink" href = "index.html">Home</a>
-                <a class = "hyperlink" href = "ticket.html">Tickets</a>
-                <a class = "hyperlink" href = "faq.html">FAQ</a>
-                <a class = "hyperlink" href = "contact.html">Contacts</a><br>
+                <a id = "hyperlink" href = "index.html">Home</a>
+                <a id = "hyperlink1" href = "ticket.html">Tickets</a>
+                <a id = "hyperlink2" href = "faq.html">FAQ</a>
+                <a id = "hyperlink3" href = "contact.html">Contacts</a><br>
             </nav>
+            <!-- Informations separated into different sections -->
             <h2 class= "about">About Max Fosh</h2>
             <div class = "info">
                 <p>Max Fosh is a 29 year old Youtuber from London, United Kingdom. He does silly things for his youtube channel called "Max Fosh".</p>
-                <img src="Max-Fosh.webp" alt="Picture of Max Fosh">
+                <img src="images/max-fosh.webp" alt="Picture of Max Fosh">
             </div>
             <div class = "vid">
                 <h2>More about him</h2>
@@ -24,7 +27,9 @@
             </div>
             <div class= "more-info">
                 <h3>Read More</h3>
-                <a href = "https://youtube.fandom.com/wiki/Max_Fosh" title = "To Wikitubia">Max Fosh's Wikitubia</a>
+                <a id = "wiki" href = "https://youtube.fandom.com/wiki/Max_Fosh" title = "To Wikitubia">Max Fosh's Wikitubia</a>
             </div>
+            <!-- Script Used -->
+            <script src = "scripts/index.js"></script>
         </body>
     </html>
